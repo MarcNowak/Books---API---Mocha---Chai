@@ -1,0 +1,16 @@
+{
+  "name": "booksapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "repository": "git@github.com:MarcNowak/Books---API---Mocha---Chai.git",
+  "author": "Marcin Nowak <maarcin.nowaak@gmail.com>"
+}
